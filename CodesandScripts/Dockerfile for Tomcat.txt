@@ -1,0 +1,3 @@
+FROM tomcat:9.0-jdk11-openjdk-bullseye [cite: 51]
+EXPOSE 8080 [cite: 51]
+CMD ["catalina.sh", "run"] [cite: 51]
