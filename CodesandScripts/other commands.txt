@@ -1,0 +1,9 @@
+Other Commands:
+
+sudo docker-compose up -d --build.
+sudo docker ps.
+sudo nmap -p- -sV -Pn 172.20.0.10.
+traceroute 172.20.0.10.
+msfconsole.
+john hashes.txt.
+hydra -l root -P my_wordlist.txt mysql://172.20.0.20
